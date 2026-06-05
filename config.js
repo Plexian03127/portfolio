@@ -32,7 +32,7 @@ const CONFIG = {
   /* ── YouTube API ───────────────────────── */
   // Google Cloud Console → YouTube Data API v3 → API 키 발급 후 입력
   // 비워두면 수동으로 입력한 views/likes가 표시됩니다.
-  youtubeApiKey: "",   // 예: "AIzaSy..."
+  youtubeApiKey: "AIzaSyCk2nF9a7oa8xa_lfV3_17Z8gGOcCozWPc",   // 예: "AIzaSy..."
 
   /* ── 영상 목록 ─────────────────────────── */
   // platform: "youtube" | "instagram" | "tiktok"
