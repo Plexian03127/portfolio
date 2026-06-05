@@ -219,7 +219,7 @@ ul { list-style: none; }
 }
 .hero-title .line:nth-child(1) { animation-delay: 0.1s; }
 .hero-title .line:nth-child(2) { animation-delay: 0.2s; }
-.hero-title .italic { font-style: italic; color: var(--accent); }
+.hero-title .italic { color: var(--accent); }
 .hero-title .accent { color: var(--accent); }
 
 .hero-sub {
