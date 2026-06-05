@@ -7,7 +7,7 @@
 const CONFIG = {
 
   /* ── 기본 정보 ─────────────────────────── */
-  name: "YOUR NAME",              // 이름 또는 닉네임
+  name: "김동",              // 이름 또는 닉네임
   tagline: "Marketing & Branding",
   heroTitle: ["숨은 맛집을 발굴하고", "이야기로 잇습니다."],  // 두 줄
   heroBio: "부산의 골목 맛집을 숏폼 영상과\n인포그래픽으로 세상에 알립니다.",
@@ -53,7 +53,7 @@ const CONFIG = {
       platform: "youtube",
       youtubeId: "esnuxml95vc",
       title: "[봄시즌 특집] 부산의 숨은 맛집 - 오뚜기식당",
-      description: "봄 시즌 특집으로 제작된 부산 숨은 맛집 시리즈 홍보 영상",  // ← 수정
+      description: "봄 시즌 특집으로 제작된 부산 숨은 맛집 시리즈 홍보 영상",
       link: "https://youtube.com/shorts/esnuxml95vc",
       views: "—",
       likes: "—",
@@ -85,10 +85,9 @@ const CONFIG = {
   contact: {
     sub: "협업 제안, 프로젝트 문의는 아래로 연락주세요.",
     links: [
-      { label: "Email",     icon: "✉",  url: "mailto:your@email.com" },
-      { label: "Instagram", icon: "◈",  url: "https://instagram.com/yourhandle" },
-      { label: "YouTube",   icon: "▶",  url: "https://youtube.com/@yourchannel" },
-      { label: "LinkedIn",  icon: "in", url: "https://linkedin.com/in/yourprofile" },
+      { label: "Email",     icon: "✉",  url: "kdh20030717@gmail.com" },
+      { label: "Instagram", icon: "◈",  url: "https://instagram.com/plexian03127" },
+      { label: "YouTube",   icon: "▶",  url: "https://youtube.com/@Kim_Dong-hyeok" },
     ],
   },
 
