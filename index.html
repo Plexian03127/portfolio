@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Creative Marketer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" id="nav-name">YOUR NAME</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#posters">Posters</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-hamburger" id="hamburger" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#videos" class="mobile-link">Videos</a></li>
+      <li><a href="#posters" class="mobile-link">Posters</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="hero-grain"></div>
+      <div class="hero-circle c1"></div>
+      <div class="hero-circle c2"></div>
+      <div class="hero-circle c3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag" id="hero-tag">Marketing &amp; Branding</p>
+      <h1 class="hero-title" id="hero-title">
+        <span class="line">Crafting Stories</span>
+        <span class="line italic">That Convert.</span>
+      </h1>
+      <p class="hero-sub" id="hero-sub">숏폼 콘텐츠와 비주얼 브랜딩으로<br>브랜드의 목소리를 만들어냅니다.</p>
+      <div class="hero-cta">
+        <a href="#videos" class="btn-primary">Work 보기</a>
+        <a href="#contact" class="btn-ghost">연락하기</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container about-grid">
+      <div class="about-label-col">
+        <span class="section-label">About</span>
+      </div>
+      <div class="about-text-col">
+        <h2 class="about-heading" id="about-heading">안녕하세요,<br><em id="about-name">YOUR NAME</em>입니다.</h2>
+        <p class="about-body" id="about-bio">마케팅 크리에이터로서 브랜드의 핵심 가치를 숏폼 영상과 인포그래픽으로 전달합니다. 데이터 기반의 스토리텔링으로 시청자를 고객으로 전환하는 콘텐츠를 만듭니다.</p>
+        <ul class="about-skills" id="about-skills-list">
+          <!-- JS로 렌더링 -->
+        </ul>
+      </div>
+      <div class="about-stats-col" id="about-stats">
+        <!-- JS로 렌더링 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEOS -->
+  <section id="videos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Short-form Videos</span>
+        <h2 class="section-title">숏폼 홍보 영상</h2>
+      </div>
+      <div class="video-grid" id="video-grid">
+        <!-- JS로 렌더링 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- POSTERS -->
+  <section id="posters">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Infographic Posters</span>
+        <h2 class="section-title">인포그래픽 포스터</h2>
+      </div>
+      <div class="poster-grid" id="poster-grid">
+        <!-- JS로 렌더링 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- POSTER LIGHTBOX -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox-close" id="lb-close" aria-label="닫기">✕</button>
+    <div class="lightbox-inner">
+      <img id="lb-img" src="" alt="" />
+      <div class="lightbox-info">
+        <h3 id="lb-title"></h3>
+        <p id="lb-desc"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container contact-wrap">
+      <span class="section-label">Contact</span>
+      <h2 class="contact-heading">함께 만들어볼까요?</h2>
+      <p class="contact-sub" id="contact-sub">협업 제안, 프로젝트 문의는 아래로 연락주세요.</p>
+      <div class="contact-links" id="contact-links">
+        <!-- JS로 렌더링 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container footer-inner">
+      <p id="footer-copy">© 2025 YOUR NAME. All rights reserved.</p>
+      <p class="footer-made">Made with intention.</p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
